@@ -4,7 +4,7 @@
             <div class="header__content">
                 <router-link to="/applications">Applications</router-link>
                 <router-link to="/practice">Practice</router-link>
-                <router-link to="/learning">Learning</router-link>
+                <router-link to="/training">Learning</router-link>
                 <router-link to="/tutorials">Tutorials</router-link>
             </div>
         </base-container>
@@ -31,8 +31,11 @@ export default {}
     }
 
     a {
+        margin-bottom: calcRem(10px);
         padding: calcRem(10px) calcRem(15px);
         border-radius: 20px;
+
+        &:last-child { margin-bottom: 0; }
 
         &.router-link-active {
             background: #0097e6;
@@ -41,16 +44,16 @@ export default {}
 }
 
 @include phablet {
-.header {
-    &__content {
-        flex-direction: row;
-    }
+    .header {
+        &__content {
+            flex-direction: row;
+        }
 
-    a { 
-        margin-right: calcRem(20px);
+        a { 
+            margin: 0 calcRem(20px) 0 0;
 
-        &:last-child { margin-right: 0; }
+            &:last-child { margin-right: 0; }
+        }
     }
-}
 }
 </style>

@@ -1,3 +1,5 @@
-# github portfolio
+# GitHub Portfolio
+On this [page](https://aldopolojr.github.io/venture/) I sort and manage my projects on github. Go check it out!
 
-On this [page](https://aldopolojr-github-portfolio.netlify.app/) I sort and categorize al my works from github.
+## Category
+application

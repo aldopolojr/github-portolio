@@ -29,6 +29,12 @@ export default {
                         date: 'December 4, 2020', 
                         tags: [{ name: 'HTML5', type: 'html' }, { name: 'semantic layout', type: 'html'}, { name: 'BEM', type: 'html' }, { name: 'CSS3', type: 'css' }, { name: 'Sass', type: 'css' }, { name: 'flexbox', type: 'css' }, { name: 'responsive design', type: 'css' }, { name: 'JavaScript', type: 'js' }],
                     },
+                    { 
+                        title: 'Admin-Panel', 
+                        url: { git: 'https://github.com/aldopolojr/admin-panel', demo: 'https://aldopolojr.github.io/admin-panel' }, 
+                        date: 'Oktober 15, 2020', 
+                        tags: [{ name: 'HTML5', type: 'html' }, { name: 'semantic layout', type: 'html'}, { name: 'CSS3', type: 'css' }, { name: 'Sass', type: 'css' }, { name: 'css grid', type: 'css' }, { name: 'responsive design', type: 'css' }, { name: 'JQuery', type: 'js' }],
+                    },
                 ],
             },
         };

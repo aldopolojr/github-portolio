@@ -12,6 +12,12 @@ export default {
                 paragraph: 'In this section I display all sorts of projects made from online courses I engaged. The ambition is to learn and improve new theories of a particular subject.',
                 works: [
                     { 
+                        title: 'Bankist (app)', 
+                        url: { git: 'https://github.com/aldopolojr/bankist-app', demo: 'https://aldopolojr.github.io/bankist-app/' }, 
+                        date: 'March 3, 2021', 
+                        tags: [{ name: 'JavaScript', type: 'js' }, { name: 'array methods', type: 'js' }, { name: 'dates', type: 'js' }, { name: 'internationalizing', type: 'js' }, { name: 'timer', type: 'js' }],
+                    },
+                    { 
                         title: 'Bankist (web)', 
                         url: { git: 'https://github.com/aldopolojr/bankist-web', demo: 'https://aldopolojr.github.io/bankist-web/' }, 
                         date: 'March 3, 2021', 

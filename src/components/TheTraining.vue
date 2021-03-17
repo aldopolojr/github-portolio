@@ -14,7 +14,7 @@ export default {
                     { 
                         title: 'Bankist (app)', 
                         url: { git: 'https://github.com/aldopolojr/bankist-app', demo: 'https://aldopolojr.github.io/bankist-app/' }, 
-                        date: 'March 3, 2021', 
+                        date: 'March 17, 2021', 
                         tags: [{ name: 'JavaScript', type: 'js' }, { name: 'array methods', type: 'js' }, { name: 'dates', type: 'js' }, { name: 'internationalizing', type: 'js' }, { name: 'timer', type: 'js' }],
                     },
                     { 

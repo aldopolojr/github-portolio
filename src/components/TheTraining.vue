@@ -12,6 +12,12 @@ export default {
                 paragraph: 'In this section I display all sorts of projects made from online courses I engaged. The ambition is to learn and improve new theories of a particular subject.',
                 works: [
                     { 
+                        title: 'Mapty App', 
+                        url: { git: 'https://github.com/aldopolojr/mapty-app', demo: 'https://aldopolojr.github.io/mapty-app/' }, 
+                        date: 'March 20, 2021', 
+                        tags: [{ name: 'JavaScript', type: 'js' }, { name: 'OOP', type: 'js' }, { name: 'geolocation', type: 'js' }, { name: 'localstorage', type: 'js' }, { name: 'Leaflet library', type: '' },],
+                    },
+                    { 
                         title: 'Bankist (app)', 
                         url: { git: 'https://github.com/aldopolojr/bankist-app', demo: 'https://aldopolojr.github.io/bankist-app/' }, 
                         date: 'March 17, 2021', 

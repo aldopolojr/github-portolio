@@ -12,6 +12,12 @@ export default {
                 paragraph: 'In this section I display all sorts of projects made from online courses I engaged. The ambition is to learn and improve new theories of a particular subject.',
                 works: [
                     { 
+                        title: 'Monster Slayer Game', 
+                        url: { git: 'https://github.com/aldopolojr/monster-slayer-game', demo: 'https://aldopolojr.github.io/monster-slayer-game' }, 
+                        date: 'March 24, 2021', 
+                        tags: [{ name: 'Vue', type: 'vue' }, { name: 'Vue basics', type: 'vue' }, { name: 'DOM interaction', type: 'vue' }, { name: 'conditional content & lists', type: 'vue' }, { name: 'game', type: '' }],
+                    },
+                    { 
                         title: 'Forkify', 
                         url: { git: 'https://github.com/aldopolojr/forkify', demo: 'https://aldopolojr-forkify.netlify.app/' }, 
                         date: 'March 22, 2021', 
